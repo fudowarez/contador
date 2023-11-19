@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.4;
+
+contract Contador {
+    uint16 public Visitantes = 0;
+
+    function Visitar () public{
+     Visitantes += 1;
+    }
+}
